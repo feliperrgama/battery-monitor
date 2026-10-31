@@ -1,0 +1,94 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    background-color: rgb(27, 27, 56);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 500px;
+    width: 600px;
+    justify-self: center;
+    padding: 15px;
+    background-color: rgb(41, 48, 91);
+}
+
+h1 {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.hr {
+    height: 0.1px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px 10px 5px 10px;
+}
+
+.informations {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    gap: 30px;
+}
+
+.percent-div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-solid {
+    font-size: 50px;
+    color: green;
+}
+
+#percent-paragraph {
+    color: green;
+    font-weight: bold;
+}
+
+.power-div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.estimate-div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.informations p {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.definations {
+    margin-top: 20px;
+}
+
+#clock {
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battery Verificator</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <main>
+        <h1>Status da Bateria</h1>
+        
+        <div class="hr"></div>
+
+        <div class="informations">
+
+            <div class="percent-div">
+                <i class="fa-solid fa-battery-full" id="battery-icon"></i>
+                <p id="percent-paragraph"><span id="number-percent">0</span>%</p>
+            </div>
+
+            <div class="power-div">
+                <i class="fa-solid fa-plug" id="plug-icon"></i>
+                <p id="power-paragraph"></p>
+            </div>
+
+            <div class="estimate-div">
+                <i class="fa-solid fa-stopwatch" id="clock"></i>
+                <p id="estimate-paragraph"><span id="minutes"></span> left</p>
+            </div>
+        </div>
+
+        <div class="hr"></div>
+
+        <div class="definations">
+            <p id="percent-defination">Baterry is full</p>
+        </div>
+
+        
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
