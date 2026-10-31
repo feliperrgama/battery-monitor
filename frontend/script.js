@@ -1,4 +1,4 @@
-const API_URL = "https://guaranteed-rose-ago-candy.trycloudflare.com/"
+const API_URL = "https://guaranteed-rose-ago-candy.trycloudflare.com"
 
 async function getData(){
     try {
